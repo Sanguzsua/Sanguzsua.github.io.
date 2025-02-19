@@ -59,13 +59,14 @@ button:hover {
     color: rgb(126, 5, 5);
 }
 footer {
-    background-color:#3779cf; /*Color de fondo*/
-    border-radius:20px;/*Bordes redondeados*/
-    position:fixed;/*fija el footer en la pantalla*/
-    bottom:0;/*fija el footer en la parte inferior*/
-    left:0;/*se alinea con el borde izquierdo*/
-    width:100%;/*hace que ocupe todo el ancho de la pantalla*/
-    text-align:center;/*centra el texto del footer*/
-    padding:10px;/*agrega como un espacio alrededor del contenido*/
+    position: fixed; /* Fija el footer en la parte inferior */
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 255, 0.8); /* Azul con transparencia */
+    color: white;
+    text-align: center;
+    padding: 5px 10px;
+    font-size: 14px; /* Reduce el tamaño del texto */
+    height: auto; /* Ajusta la altura automáticamente */
 }
-
