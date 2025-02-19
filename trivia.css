@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #216b70a4;
+    padding: 20px;
+}
+
+
+h1 {
+    color: #f1e3e3;
+}
+
+button {
+    background-color: #61b4b9;
+    color: rgb(10, 7, 7);
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#pregunta-container {
+    background: rgba(28, 95, 150, 0.692);
+    width: 50%;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.opcion {
+    
+    width: 80%;
+    margin: 10px auto;
+    padding: 10px;
+    border: 2px solid black;
+    background-color: white;
+    border-radius: 5px;
+}
+#resultado {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.correcto {
+    background-color: green !important;
+    color: rgb(75, 216, 19);
+}
+
+.incorrecto {
+    background-color: red !important;
+    color: rgb(126, 5, 5);
+}
+footer {
+    background-color:#3779cf; /*Color de fondo*/
+    border-radius:20px;/*Bordes redondeados*/
+    position:fixed;/*fija el footer en la pantalla*/
+    bottom:0;/*fija el footer en la parte inferior*/
+    left:0;/*se alinea con el borde izquierdo*/
+    width:100%;/*hace que ocupe todo el ancho de la pantalla*/
+    text-align:center;/*centra el texto del footer*/
+    padding:10px;/*agrega como un espacio alrededor del contenido*/
+}
+
